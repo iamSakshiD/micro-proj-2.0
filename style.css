@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    box-sizing: border-box;
+}  
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+.navbar{
+    background-color: #6f6af7;
+    display: flex; 
+    color: #FFFFFF;
+    height: 10vh; 
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed; 
+    top: 0;
+}  
+
+.logo h1{
+    
+font-family:  "Delius Unicase";
+font-weight: 700;
+}
+
+.list ul{
+    display: flex; 
+    list-style: none; 
+    justify-content: space-around;
+    gap: 53px; 
+    
+    
+}   
+.list ul li{
+    font-family: "DM Sans"; 
+    font-weight: 400; 
+    font-size:large ;
+}
+ul li img{
+    height: 7px; 
+    padding-left: 2px; 
+}
+.search-box{
+    height: 6vh;
+    width: 35vh;
+    background-color: #FFFFFF; 
+    border-radius: 30px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* padding: 10px; */
+} 
+.search-box img{
+    /* padding-top: 13px; */ 
+    /* padding-left: 13px;  */
+    height: 3vh; 
+    justify-items: end; 
+    padding-right: 9px;
+} 
+
+.search-box h4{
+    color: #9F9F9F;
+    font-weight: 400; 
+    font-family: "DM Sans";
+    /* padding-top: 13px;*/ 
+    padding-left: 13px; 
+
+}  
+.hamburger img{
+    height: 4vh;
+} 
+.box-1{
+    display: flex;
+    margin-top: 16vh;
+    padding: 0 10vw;
+    width: 100%; 
+    height: 10%;
+    justify-content: space-between;
+    /* background-color: #9F9F9F; */
+}     
+.pic {
+    width: 50%; 
+
+}   
+.pic img{
+    width: 80%;
+    height: 56vh;
+}
+
+.text-box textarea{ 
+    width: 49vw;
+    height: 56vh; 
+    border-radius: 8px; 
+    background-color: #E5D8FF;
+    color: #6F7373; 
+    font-family: DM Sans; 
+    font-weight: 400;
+    font-size: medium;
+    padding: 10px; 
+    line-height: 35px;
+
+}   
+.cards{
+    height: 20vh; 
+    width: 80%; 
+    display: flex; 
+    margin: 10vh 10vw; 
+    justify-content: space-between;
+} 
+.cards #card-1{
+    background: #929DFF;
+    height: 16vh; 
+    width: 17vw; 
+    margin-right: 3vw;
+    border-radius: 2vh;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 2.5vh; 
+    line-height: 4vh; 
+    padding: 3vh;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+.cards #card-2{
+    background: #734CF2;
+    height: 16vh; 
+    width: 17vw;
+    margin-right: 3vw;
+    border-radius: 2vh;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 2.5vh; 
+    line-height: 4vh; 
+    padding: 3vh;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+.cards #card-3{
+    background: #D288FF;
+    height: 16vh; 
+    width: 17vw;
+    margin-right: 3vw;
+    border-radius: 2vh;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 2.5vh; 
+    line-height: 4vh; 
+    padding: 3vh;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+}
+.cards #card-4{
+    background: #000000;
+    height: 16vh; 
+    width: 17vw;
+    border-radius: 2vh;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 2.5vh; 
+    line-height: 4vh; 
+    padding: 3vh;
+    box-shadow: 0px 9px 31px 0px #00000066;
+
+} 
+.box-3{
+    background: #483EFF; 
+    height: 60vh; 
+    width: 80%; 
+    margin: 10vh 10vw ; 
+    display: flex; 
+    border-radius: 3vh;
+}  
+.box-3 #rt-box-1{ 
+    margin: 7vh 4vw 0 10vh ;
+    background: #BCE0F6; 
+    height: 10vh; 
+    width: 13vw;
+    font-family: DM Sans; 
+    font-weight: 700;
+    color: #000000; 
+    border-radius: 1vh; 
+    /* padding: 3vh 5vw 2vh 5vw; */
+    padding: 3.5vh 0 0 3.5vw;
+    font-size:2.5vh;
+    box-shadow: 0px 6px 35px 0px #00000063;
+
+} 
+/* #rt-box-1{
+    
+} */
+.box-3 #rt-box-2{ 
+    margin: 8vh 4vw 0 10vh ;
+    height: 10vh; 
+    width: 13vw;
+    font-family: DM Sans; 
+    font-weight: 700;
+    color: #FFFFFF; 
+    border: 2px solid #FFFFFF;
+    border-radius: 1vh; 
+    padding: 3.5vh 0 0 3.5vw;
+    font-size:2.5vh;
+}
+.box-3 #rt-box-3{ 
+    margin: 8vh 4vw 0 10vh ;
+    height: 10vh; 
+    width: 13vw;
+    font-family: DM Sans; 
+    font-weight: 700;
+    color: #FFFFFF; 
+    border: 2px solid #FFFFFF;
+    border-radius: 1vh; 
+    padding: 3.5vh 0 0 3.5vw;
+    font-size:2.5vh;
+
+}  
+.left{
+    background: #483EFF; 
+    width: 59vw; 
+    padding: 6vh; 
+    border-radius: 3vh;
+}
+ 
+#profile{ 
+    background: #FFFFFF;  
+    height: 100%; 
+    width: 100%;  
+    border-radius: 2vh;
+} 
+
+.info-heading h1{
+    font-family: inter;
+    font-weight: 700;
+    font-size:x-large;
+    line-height: 4vh; 
+    padding: 3vh 2vw; 
+    letter-spacing: 3px; 
+    color: #04285A;
+
+} 
+strong{
+    color: #04285A; 
+    font-family: "Roboto";
+    font-weight: 500; 
+    letter-spacing: 1px;
+
+}
+#name{
+    font-family: "Roboto"; 
+    font-weight: 400;
+    padding: 2vh 2vw;
+    color: #04285A;
+    letter-spacing: 1px;
+} 
+#email{
+    font-family: "Roboto"; 
+    font-weight: 400;
+    padding: 2vh 2vw;
+    color: #04285A;
+    letter-spacing: 1px;
+} 
+#number{
+    font-family: "Roboto"; 
+    font-weight: 400;
+    padding: 2vh 2vw;
+    color: #04285A;
+    letter-spacing: 1px;
+} 
+#marks{
+    font-family: "Roboto"; 
+    font-weight: 400;
+    padding: 2vh 2vw;
+    color: #04285A;
+    letter-spacing: 1px;
+}  
+button{ 
+    margin: 0 1vw;
+    width: 8vw;
+    height: 7vh; 
+    border-radius: 1vw;
+    background-color: #000000;
+    color: #FFFFFF; 
+    position: absolute; 
+    right: 20vw;
+    
+} 
+button img{
+    width: 0.9vw;  
+    margin-left: 10px;
+}    
+.social-media-frame {
+    position: sticky;
+    float: right;
+    margin-top: 5vh;
+    top: 14vh;
+  }
+  
+.social-media-frame img {
+    height: 25vh;
+  }
+footer{
+    position: fixed; 
+    bottom: 0vh;
+    right: 100px;
+    z-index: 999;
+}
+
+footer img{
+   height: 16vh;
+   width: 8vw;
+}
+
+
+
+
